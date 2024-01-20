@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Undangan Pernikahan</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Undangan Pernikahan</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Audio Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">RSVP</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center">Undangan Pernikahan</h1>
+                <p class="text-center">Kami mengundang Anda untuk bergabung dengan kami dalam pernikahan kami.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Detail Acara</h2>
+                <p><strong>Tanggal:</strong> 1 Januari 2025</p>
+                <p><strong>Waktu:</strong> 10:00 pagi - 12:00 siang</p>
+                <p><strong>Tempat:</strong> Gedung Serbaguna XYZ</p>
+                <p><strong>Alamat:</strong> Jalan Raya ABC No. 123, Jakarta Selatan</p>
+            </div>
+            <div class="col-md-6">
+                <h2>RSVP</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap</label>
+                        <input type="text" class="form-control" id="name" placeholder="Masukkan nama lengkap Anda">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Alamat Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Masukkan alamat email Anda">
+                    </div>
+                    <div class="form-group">
+                        <label for="guests">Jumlah Tamu</label>
+                        <select class="form-control" id="guests">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Kirim</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
